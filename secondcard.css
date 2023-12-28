@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( 179deg,  rgb(37, 43, 37) 9.2%, rgb(221, 28, 189) 103.9% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: bisque;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.card img{
+    height: 30%;
+    width:100%;
+    border-radius: 15px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.textbox h1{
+
+}
+
+.textbox p{
+    text-align: center;
+    width: 240px;
+}
+
+.amountbox{
+    background: #8fa786;
+    width: 70%;
+    height: 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left:30px ;
+    
+}
+.leftbox{
+    height: 100%;
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imgbox img{
+    height: 30px;
+    width: 30px;
+}
+
+.clickpayment{
+    width: 80%;
+    height: 9%;
+    border-radius: 20px;
+    background-color: rgb(152, 153, 77);
+    box-shadow: 0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+    
+}
+
+.canclebox a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(36, 21, 21);
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 20px 20px 10px rgb(113, 151, 209);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.card img{
+    height:52% ;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2opx 20px 10px rgb(20, 24, 20);
+}
+
+.card h1{
+    font-style: italic;
+
+}
+
+.card p{
+    font-size: 16px;
+
+}
